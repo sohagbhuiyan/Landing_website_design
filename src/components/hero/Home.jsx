@@ -5,15 +5,15 @@ import Clients from "../clients/Clients";
 const Home = () => {
   return (
     <>
-      <div className="bg-olive-100 flex justify-between items-center p-5 2xl:px-44">
+      <div className="bg-olive-100 flex justify-between items-center p-4 lg:p-8 2xl:px-44">
           <div className=" items-center">
-            <h1 className="md:text-6xl text-xl text-black-D drop-shadow-lg font-semibold">
+            <h1 className="md:text-6xl text-2xl text-black-D drop-shadow-lg font-semibold">
               Lessons and insights
             </h1>
-            <p className="text-green md:text-6xl text-xl font-semibold drop-shadow-md">
+            <p className="text-green md:text-6xl text-2xl font-semibold drop-shadow-md">
               from 8 years
             </p>
-            <p className="md:text-base py-5 text-xs text-gray-500">
+            <p className="md:text-base py-5 text-sm text-gray-500">
               Where to grow your business as a photographer: site or social
               media?
             </p>

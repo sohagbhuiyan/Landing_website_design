@@ -46,7 +46,7 @@ const HelpSection = () => {
           We reached here with our hard work and dedication.
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-4 p-4 ">
+      <div className="grid md:grid-cols-2  gap-4 p-4 ">
         {stateData.slice(0, 4).map((data, index) => (
           <State
             key={index}
