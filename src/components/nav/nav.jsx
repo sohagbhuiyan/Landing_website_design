@@ -52,8 +52,8 @@ const Nav = () => {
         </ul>
       </div>
       <div className="flex px-10 space-x-3 items-center ">
-       <a href="#"><p className="text-green text-base font-semibold cursor-pointer hover:text">Login</p></a> 
-      <a href="#"> <button className="bg-green text-base hover:bg-emerald-500 sm:h-10 sm:w-24 w-16 h-8 font-semibold text-white rounded-xl">
+       <a href="#"><p className="text-green text-sm md:text-base font-semibold cursor-pointer hover:text">Login</p></a> 
+      <a href="#"> <button className="bg-green text-sm md:text-base hover:bg-emerald-500 sm:h-10 sm:w-24 w-16 h-8 font-semibold text-white rounded-xl">
           Signup
         </button></a> 
       </div>

@@ -5,8 +5,7 @@ import Clients from "../clients/Clients";
 const Home = () => {
   return (
     <>
-      <div className="bg-olive-100 p-1 py-3">
-        <div className="flex justify-between items-center px-20 2xl:px-44">
+      <div className="bg-olive-100 flex justify-between items-center p-5 2xl:px-44">
           <div className=" items-center">
             <h1 className="md:text-6xl text-xl text-black-D drop-shadow-lg font-semibold">
               Lessons and insights
@@ -28,7 +27,6 @@ const Home = () => {
           <div>
             <img src={Pic} alt="pic" className="p-10 relative" />
           </div>
-        </div>
       </div>
       <Clients />
     </>
